@@ -4,7 +4,7 @@ from routes.util import get_response_with_variables, create_user_token
 
 
 def init(app, url):
-    @app.route('/create-solution-instance', methods=['POST'])
+    @app.route('/api/create-new-solution', methods=['POST'])
     def create_solution_instance():
         """ Create Solution Instance """
         temp = request.data.decode("UTF-8")

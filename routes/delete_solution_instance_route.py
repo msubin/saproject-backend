@@ -5,7 +5,7 @@ from routes.util import create_user_token, get_response_with_variables
 
 def init(app, url):
 
-    @app.route('/delete-solution-instance', methods=['POST'])
+    @app.route('/api/delete-instance', methods=['POST'])
     def delete_solution_instance():
         """ Delete Solution Instance """
         temp = request.data.decode("UTF-8")

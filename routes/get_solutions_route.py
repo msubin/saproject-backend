@@ -5,7 +5,7 @@ from routes.util import get_response
 def init(app, url):
     env = Environment()
 
-    @app.route('/')
+    @app.route('/api/get-solutions')
     def get_solutions():
         """ Get Solutions from Tray.io """
         query = """

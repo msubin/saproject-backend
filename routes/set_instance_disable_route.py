@@ -4,7 +4,7 @@ from routes.util import create_user_token, get_response_with_variables
 
 
 def init(app, url):
-    @app.route('/set-instance-disable', methods=['POST'])
+    @app.route('/api/disable-instance', methods=['POST'])
     def set_instance_disable():
         """ Update Solution Instance - Disable """
 

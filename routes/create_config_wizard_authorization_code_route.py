@@ -7,7 +7,7 @@ from flask import request
 def init(app, url):
     env = Environment()
 
-    @app.route('/create-config-wizard', methods=['POST'])
+    @app.route('/api/create-config', methods=['POST'])
     def create_config_wizard():
         """ Create Config Wizard Authorization Code """
         temp = request.data.decode("UTF-8")
