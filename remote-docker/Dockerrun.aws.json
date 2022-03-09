@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "298534585508.dkr.ecr.us-east-1.amazonaws.com/saproject-backend",
+    "Name": "298534585508.dkr.ecr.us-west-2.amazonaws.com/saproject-backend",
     "Update": "true"
   },
   "Ports": [
