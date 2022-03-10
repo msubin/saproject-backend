@@ -5,7 +5,7 @@ from routes.util import get_response_with_variables
 def init(app, url):
     env = Environment()
 
-    @app.route('/')
+    @app.route('/api')
     def get_solution_instances():
         """ Get Solution InstanceList with a user token """
         query = """
